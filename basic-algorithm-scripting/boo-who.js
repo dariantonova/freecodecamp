@@ -7,4 +7,5 @@ function booWho(bool) {
     return typeof bool === 'boolean';
 }
 
-booWho(null);
+console.log(booWho(null));
+console.log(booWho(true));
